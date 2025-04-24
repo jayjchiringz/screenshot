@@ -26,12 +26,12 @@ def send_email(text):
     smtp_server = "smtp.gmail.com"
     smtp_port = 587
     smtp_user = "jayjchiringz@gmail.com"
-    smtp_password = "krfy rfti ymna rliz"  # Replace with your app-specific password
+    smtp_password = "bika dshh yfqb nxfg"  # Replace with your app-specific password
     from_addr = "jayjchiringz@gmail.com"
     to_addr = "technothrone2014@gmail.com"
 
     msg = MIMEText(text)
-    msg['Subject'] = 'Subject of your email'
+    msg['Subject'] = 'Screen shot'
     msg['From'] = from_addr
     msg['To'] = to_addr
 
